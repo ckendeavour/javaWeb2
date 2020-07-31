@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaWeb2:war exploded">
+    <output-path>$PROJECT_DIR$/../../idea_tomcat/apache-tomcat-8.0.47_8020/webapps/javaWeb2</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaWeb2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaWeb2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

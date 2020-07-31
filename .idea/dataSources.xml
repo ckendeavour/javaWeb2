@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hdsm测试库" uuid="c81d9bd1-e79f-4189-a52c-32ac80d4c68e">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>hdsmcs</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@3.3.0.61:1566:hdsmcs</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="layui-rbac@localhost" uuid="7bcbeb1a-205d-4142-bce0-87d7def9f35f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/layui-rbac</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
